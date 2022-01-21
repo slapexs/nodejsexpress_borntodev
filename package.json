@@ -21,5 +21,12 @@
   "dependencies": {
     "express": "^4.17.2",
     "morgan": "^1.10.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "delay": 1500,
+    "env": {
+      "PORT": 3000
+    }
   }
 }
